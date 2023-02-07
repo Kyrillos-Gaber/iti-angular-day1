@@ -6,6 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./portfolio.component.css']
 })
 export class PortfolioComponent {
-  port = ["project1", "project2", "project3"]
+  portfolio = ["Desktop App", "Web App", "Delivery App"];
   
 }

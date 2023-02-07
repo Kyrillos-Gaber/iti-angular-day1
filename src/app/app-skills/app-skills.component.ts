@@ -6,7 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app-skills.component.css']
 })
 export class AppSkillsComponent {
-  skill = ['c++', 'c#', 'php'];
+  skills = [
+    {name:'c++', score:20},
+    {name:'c#', score:40},
+    {name:'php', score:60}
+  ];
 
   btnclicked() {
     console.log("downloading");

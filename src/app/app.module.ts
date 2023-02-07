@@ -7,6 +7,8 @@ import { IntroSecComponent } from './intro-sec/intro-sec.component';
 import { AppSkillsComponent } from './app-skills/app-skills.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { FooterComponent } from './footer/footer.component';
+import { SkillComponent } from './skill/skill.component';
+import { PortfolioCardComponent } from './portfolio-card/portfolio-card.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { FooterComponent } from './footer/footer.component';
     IntroSecComponent,
     AppSkillsComponent,
     PortfolioComponent,
-    FooterComponent
+    FooterComponent,
+    SkillComponent,
+    PortfolioCardComponent
   ],
   imports: [
     BrowserModule,
